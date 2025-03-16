@@ -1,0 +1,23 @@
+:root {
+    @media screen and (max-width: 940px) {
+        --container-padding-inline: 6%;
+        --footer-padding-inline: 6%;
+    }
+
+    @media screen and (max-width: 375px) {
+        --container-padding-inline: 15px;
+        --footer-padding-inline: 15px;
+    }
+}
+
+.button__main {
+    @media screen and (max-width: 940px) {
+        margin: 67px 20px 0;
+    }
+}
+
+.promo__link {
+    @media screen and (max-width: 940px) {
+        margin: 18px 20px;
+    }
+}
