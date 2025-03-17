@@ -33,28 +33,29 @@
             margin: 0 auto;
             margin-bottom: 30px;
         }
+    }
 
-        p {
-            width: 269px;
+    &__text {
+        margin-top: 20px;
+        width: 269px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 18px;
+
+        span {
+            color: #F00;
             font-size: 14px;
             font-style: normal;
             font-weight: 300;
             line-height: 18px;
-
-            span {
-                color: #F00;
-                font-size: 14px;
-                font-style: normal;
-                font-weight: 300;
-                line-height: 18px;
-                text-decoration-line: underline;
-                text-decoration-style: solid;
-                text-decoration-skip-ink: none;
-                text-decoration-thickness: auto;
-                text-underline-offset: auto;
-                text-underline-position: from-font;
-                text-transform: uppercase;
-            }
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+            text-decoration-skip-ink: none;
+            text-decoration-thickness: auto;
+            text-underline-offset: auto;
+            text-underline-position: from-font;
+            text-transform: uppercase;
         }
     }
 }
