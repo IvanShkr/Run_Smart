@@ -23,6 +23,17 @@
         margin: 18px 20px;
     }
 
+    .title_left {
+        text-align: center;
+    }
+
+    .consultation__descr {
+        text-align: center;
+    }
+
+    .feed-form {
+        margin: 36px auto;
+    }
 }
 
 
