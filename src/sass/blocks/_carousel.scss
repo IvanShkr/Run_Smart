@@ -7,8 +7,8 @@
         margin: 0 auto;
     }
 
-    .slick-prev,
-    .slick-next {
+    .prev,
+    .next {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -23,8 +23,38 @@
 
     }
 
-    .slick-next {
+    .next {
         right: -70px;
         left: auto;
+    }
+
+    .tns-item {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    .tns-nav {
+        position: absolute;
+        bottom: -15%;
+        /* Отступ снизу */
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 3px;
+
+        button {
+            padding: 5px 2px;
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+            background-color: #fff;
+            border: 1px solid #000000;
+        }
+
+        .tns-nav-active {
+            background-color: #ff0000;
+        }
     }
 }
