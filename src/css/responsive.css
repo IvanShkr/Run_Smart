@@ -1,4 +1,4 @@
-:root {
+/* :root {
     @media screen and (max-width: 940px) {
         --container-padding-inline: 6%;
         --footer-padding-inline: 6%;
@@ -8,7 +8,7 @@
         --container-padding-inline: 15px;
         --footer-padding-inline: 15px;
     }
-}
+} */
 
 @media screen and (max-width: 1100px) {
 
@@ -28,16 +28,32 @@
 }
 
 @media screen and (max-width: 940px) {
+    .header {
+        justify-content: space-around;
+    }
+
+    .promo__header {
+        margin-right: 50px;
+    }
+
+    .promo__subheader {
+        margin-right: 50px;
+    }
+
+    .promo__icons {
+        margin-right: 50px;
+    }
+
     .promo {
         background-position: 9%;
     }
 
     .button__main {
-        margin: 67px 20px 0;
+        margin: 67px 50px 0;
     }
 
     .promo__link {
-        margin: 18px 20px;
+        margin: 18px 50px;
     }
 
     .title_left {
@@ -73,9 +89,9 @@
 
 @media screen and (max-width: 600px) {
     .header {
-        display: grid;
-        row-gap: 30px;
         justify-content: space-around;
+        flex-direction: column;
+        gap: 15px;
     }
 
     .header__official {
@@ -102,10 +118,45 @@
     .promo__subheader {
         margin: 0 auto;
     }
+
+    .promo__icons {
+        justify-content: space-around;
+        margin: 65px auto 0;
+    }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 740px) {
+    .catalog__tabs {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .catalog__content_active {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .promo__header {
+        margin: 0 auto;
+    }
+
+    .promo__subheader {
+        margin: 0 auto;
+    }
+
     .promo__icons {
-        justify-content: flex-end;
+        margin: 65px auto 0;
+        width: 50%;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .reviews__img {
+        display: none;
+    }
+
+    .reviews__text {
+        margin-left: 30px;
     }
 }
