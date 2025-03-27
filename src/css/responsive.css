@@ -123,6 +123,12 @@
         justify-content: space-around;
         margin: 65px auto 0;
     }
+
+    .footer__info {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
 }
 
 @media screen and (max-width: 740px) {

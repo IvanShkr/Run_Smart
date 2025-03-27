@@ -12,6 +12,17 @@
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
+    transition: all 0.3s ease-in-out; // Плавный переход
+
+    &:hover {
+        background-color: darken($main-color, 5%); // Затемняем цвет фона
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); // Добавляем тень
+        transform: scale(1.05); // Легкое увеличение кнопки
+    }
+
+    &:active {
+        transform: scale(0.98); // Небольшое сжатие при нажатии
+    }
 
     &__main {
         margin-top: 67px;
