@@ -12,12 +12,10 @@
 
 @media screen and (max-width: 1100px) {
 
-    button,
     .prev,
     .next {
-        img {
-            display: none;
-        }
+        display: none;
+
     }
 
     .carousel__inner {
