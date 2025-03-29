@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
     <!-- <link rel="stylesheet" href="css/slick.css"> -->
+    <link rel="stylesheet" href="css/animate.min.css" />
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -62,28 +63,39 @@
 
     <section class="advantages">
         <div class="container">
-            <h2 class="title">наши приемущества</h2>
-            <div class="advantages__icons">
-                <div class="advantages__icon"><img src="icons/cup.svg" alt="cup">
-                    Делимся опытом
-                    <div class="advantages__text">Наши сотрудники всегда готовы поделиться своим опытом, так как сами
-                        бегают полумарафоны,
-                        переплыли Босфор, готовятся к
-                        соревнованиям по триатлону!</div>
+            <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
+            <div class="advantages__wrapper">
+                <div class="advantages__item">
+                    <img src="icons/advantages/cup.png" alt="cup" class="advantages__icon">
+                    <div class="advantages__subtitle">
+                        Делимся опытом
+                    </div>
+                    <div class="advantages__descr">
+                        Наши сотрудники всегда готовы поделиться своим опытом,
+                        так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
+                    </div>
                 </div>
-                <div class="advantages__icon"></img><img src="icons/heart.svg" alt="heart">
-                    Заботимся о здоровье
-                    <div class="advantages__text">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему
-                        здоровью и были в
-                        радость
-                        Вам и Вашим близким!</div>
+                <div class="advantages__item">
+                    <img src="icons/advantages/heart.png" alt="heart"
+                        class="advantages__icon advantages__icon_animated">
+                    <div class="advantages__subtitle">
+                        Заботимся о здоровье
+                    </div>
+                    <div class="advantages__descr">
+                        Мы работаем для того,
+                        чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
+                    </div>
                 </div>
-                <div class="advantages__icon"></img><img src="icons/shoe.svg" alt="shoe">
-                    Учим бегать
-                    <div class="advantages__text">Помогаем с обучением правильной технике бега! <br> Дружим с крупнейшей
-                        школой
-                        бега в России -
-                        <a href="#">I love running.</a>
+                <div class="advantages__item">
+                    <img src="icons/advantages/shoe.png" alt="shoe" class="advantages__icon">
+                    <div class="advantages__subtitle">
+                        Учим бегать
+                    </div>
+                    <div class="advantages__descr">
+                        Помогаем с обучением
+                        правильной технике бега!<br>
+                        Дружим с крупнейшей школой бега в России -
+                        <a href="#">I LOVE RUNNING.</a>
                     </div>
                 </div>
             </div>
@@ -391,7 +403,8 @@
     <section class="reviews">
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
-            <div class="reviews__wrapper">
+            <div class="reviews__wrapper animate__animated animate__fadeInUp wow" data-wow-duration="2s"
+                data-wow-delay="0.3s" data-wow-offset="150">
                 <img src="img/photo_Irina.png" alt="photo_Irina" class="reviews__img">
 
                 <div class="reviews__text">
@@ -406,7 +419,8 @@
                     Спасибо, RunSmart!
                 </div>
             </div>
-            <div class="reviews__wrapper">
+            <div class="reviews__wrapper animate__animated animate__fadeInUp wow" data-wow-duration="2s"
+                data-wow-delay="0.3s" data-wow-offset="150">
                 <img src="img/photo_Ivan.png" alt="photo_Ivan" class="reviews__img">
 
                 <div class="reviews__text">
@@ -419,7 +433,8 @@
                     С ними подготовился к своему первому полумарафону! Спасибо!!!
                 </div>
             </div>
-            <div class="reviews__wrapper">
+            <div class="reviews__wrapper animate__animated animate__fadeInUp wow" data-wow-duration="2s"
+                data-wow-delay="0.3s" data-wow-offset="150">
                 <img src="img/photo_Yulia.png" alt="photo_Yulia" class="reviews__img">
 
                 <div class="reviews__text">
@@ -487,6 +502,7 @@
 
     </div>
 
+
     <a href="#up" class="pageup">
         <img src="icons/circle-chevron-up-solid.svg" alt="up">
     </a>
@@ -498,6 +514,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 
 
