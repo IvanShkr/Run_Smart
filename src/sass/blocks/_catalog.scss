@@ -154,6 +154,7 @@
             }
         }
 
+
         &__list {
             position: relative;
             width: 50%;
@@ -168,6 +169,10 @@
             &_active {
                 transform: translateX(-100%);
                 margin-left: 0px;
+            }
+
+            ul {
+                padding-left: 5px;
             }
 
             li {
