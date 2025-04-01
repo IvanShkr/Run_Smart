@@ -154,6 +154,11 @@
     .modal__close {
         right: -30px;
     }
+
+    .pageup {
+        right: 17px;
+        height: 14px;
+    }
 }
 
 @media screen and (max-width: 425px) {
